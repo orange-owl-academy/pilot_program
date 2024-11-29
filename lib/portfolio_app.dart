@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/screens/card_screen.dart';
+import 'package:portfolio/screens/messenger.dart';
 import 'package:portfolio/screens/portfolio_screen.dart';
 
 class PortfolioApp extends StatelessWidget {
@@ -12,7 +14,7 @@ class PortfolioApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: const PortfolioScreen(),
+      home: const CardScreen(),
     );
   }
 }
